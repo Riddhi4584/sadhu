@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ipod_black">#FF000000</color>
+    <color name="ipod_screen">#FF111111</color>
+    <color name="ipod_grey">#FF2A2A2A</color>
+    <color name="ipod_grey_light">#FF3D3D3D</color>
+    <color name="ipod_white">#FFF5F5F5</color>
+    <color name="ipod_silver">#FFC8C8C8</color>
+    <color name="ipod_highlight">#FF4A4A4A</color>
+    <color name="ipod_wheel">#FF1C1C1C</color>
+    <color name="ipod_wheel_ring">#FF8A8A8A</color>
+    <color name="ipod_center">#FF2F2F2F</color>
+    <color name="transparent">#00000000</color>
+</resources>

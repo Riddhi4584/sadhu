@@ -1,0 +1,2 @@
+## Copy to local.properties (that file is gitignored) or let Android Studio create it.
+sdk.dir=C:\\Users\\riddh\\AppData\\Local\\Android\\Sdk

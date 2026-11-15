@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ClassicPod" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/ipod_black</item>
+        <item name="android:colorBackground">@color/ipod_black</item>
+        <item name="android:textColor">@color/ipod_white</item>
+        <item name="android:textColorPrimary">@color/ipod_white</item>
+        <item name="android:textColorSecondary">@color/ipod_silver</item>
+        <item name="android:statusBarColor">@color/ipod_black</item>
+        <item name="android:navigationBarColor">@color/ipod_black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorAccent">@color/ipod_white</item>
+    </style>
+
+    <style name="ClassicPod.Header" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/ipod_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ClassicPod.Item" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/ipod_white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="ClassicPod.Sub" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/ipod_silver</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/np_art"
+        android:layout_width="@dimen/art_size"
+        android:layout_height="@dimen/art_size"
+        android:layout_marginTop="6dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/artwork_placeholder" />
+
+    <TextView
+        android:id="@+id/np_title"
+        style="@style/ClassicPod.Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/unknown_title" />
+
+    <TextView
+        android:id="@+id/np_artist"
+        style="@style/ClassicPod.Sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/unknown_artist" />
+
+    <TextView
+        android:id="@+id/np_album"
+        style="@style/ClassicPod.Sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/unknown_album" />
+
+    <SeekBar
+        android:id="@+id/np_seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:max="1000"
+        android:progressDrawable="@drawable/seek_progress"
+        android:thumb="@null"
+        android:progressTint="@color/ipod_white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/np_elapsed"
+            style="@style/ClassicPod.Sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0:00" />
+
+        <TextView
+            android:id="@+id/np_duration"
+            style="@style/ClassicPod.Sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:00" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/np_modes"
+        style="@style/ClassicPod.Sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="4dp" />
+</LinearLayout>

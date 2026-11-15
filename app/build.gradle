@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.classicpod.player'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.classicpod.player'
+        minSdkVersion 21
+        targetSdkVersion 22
+        versionCode 5
+        versionName '4.1'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    // Intentionally empty: framework APIs only (Android 5 / API 21).
+}
